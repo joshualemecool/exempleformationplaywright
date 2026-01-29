@@ -1,0 +1,10 @@
+{
+  "poulet": {
+    "pouletroti": "poulet roti au four",
+    "pouletcurry": "poulet au curry"
+  },
+  "boeuf": {
+    "boeufbourguignon": "boeuf bourguignon",
+    "steak": "steak grille"
+  }
+}
