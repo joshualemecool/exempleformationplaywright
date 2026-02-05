@@ -26,9 +26,6 @@ export class PageCool {
 
 
     }
-    async goto() {
-    await this.page.goto(process.env.URL!);
-}
 
 async fillSubject() {
     await this.subject.click();
