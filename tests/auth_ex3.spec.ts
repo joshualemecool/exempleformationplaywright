@@ -53,6 +53,7 @@ test('test environnement variables', async ({ request }) => {
     },
   });
   expect(response.status()).toBe(200);
+  expect(response.ok()).toBeTruthy();
   const responseBody = await response.json();
   expect(responseBody).toHaveProperty('accessToken');
   console.log('Access Token from env:', responseBody.accessToken);
